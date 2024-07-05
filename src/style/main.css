@@ -1,0 +1,110 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Karla";
+}
+
+header {
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding-inline: 29px;
+}
+
+.header--logo {
+  width: 32px;
+}
+
+.header--title {
+  font-size: calc(21rem / 16);
+  font-weight: 700;
+  color: #fff;
+}
+
+.header--subtitle {
+  font-family: "Inter";
+  font-size: calc(12rem / 16);
+  font-weight: 500;
+  color: #fff;
+  margin-left: auto;
+}
+
+div.form {
+  max-width: 550px;
+  margin-inline: auto;
+  padding: 28px 37px;
+}
+
+.form--input-2col {
+  display: flex;
+  gap: 33px;
+  margin-bottom: 15px;
+}
+
+.form--input-2col label {
+  font-size: calc(14rem / 16);
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 3px;
+}
+
+.form--input-2col input {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 0.82px solid #D1D5DB;
+  font-weight: 400;
+  font-size: calc(14rem / 16);
+  color: #6B7280;
+
+}
+
+.form--button {
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+
+.meme--image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-family: Impact;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+
+.meme--image img {
+  width: 100%;
+}
+
+.meme--top-text {
+  position: absolute;
+  top: 16px;
+  filter: drop-shadow(0px 0px 3px #000000);
+  word-break: break-all;
+  padding-inline: 20px;
+}
+
+.meme--bottom-text {
+  position: absolute;
+  bottom: 16px;
+  filter: drop-shadow(0px 0px 3px #000000);
+  word-break: break-all;
+  padding-inline: 20px;
+}
